@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>LEARN JS</H2>
+<p id="demo">show date and time</p>
+<button type="button" onclick="document.getElementById('demo').innerHTML =Date()">CLICK HERE!</button>
+
+</body>
+</html>
