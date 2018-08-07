@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>TO reverse the array in java-script</h2>
+<button onclick="myFunction()">click here</button>
+
+<p id="demo">/p>
+
+<script>
+var fruits=["Mango","Orange","Banana","Apple"];
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction()
+{
+fruits.sort()//sort array allphabetically
+
+fruits.reverse();//then reverse the array in decending order
+
+document.getElementById("demo").innerHTML=fruits;
+}
+</script>
+</html>
+
+
+
+
+
