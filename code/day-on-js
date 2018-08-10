@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>SHOWING TODAY'S DATE</h2>
+<script>
+
+function myFunction()
+{
+
+var x="";
+var day=new Date().getDay();
+switch(day)
+{
+case 0:x="monday";
+break;
+case 1:x="tuesday";
+break;
+case 3:x="wednesday";
+break;
+case 4:x="thursday";
+break;
+case 5:x="friday";
+break;
+case 6:x="saturday";
+break;
+case 7:x="sunday";
+break;
+}
+ document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<button onclick=" myFunction()">CLICK HERE</button>
+<p id="demo"></P>
+</body>
+</html>
+
