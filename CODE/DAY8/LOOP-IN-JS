@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>LOOPING IN JAVA-SCRIPT </h2>
+<p id="demo"></p>
+<button onclick="myFunction()">CLICK HERE</button>
+
+<script>
+function myFunction()
+{
+
+var cars=["BMW","TATA","AUDI","HONDA"];
+var txt="";
+var i;
+for(i=0;i<cars.length;i++)
+{
+txt += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = txt;
+}
+
+
+</script>
+
+
+</body>
+</html>
