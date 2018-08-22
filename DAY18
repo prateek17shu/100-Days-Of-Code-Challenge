@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	
+	<title>javascript</title>
+</head>
+    <body>
+       <p>  this section is about js</P>
+	   
+            <script >
+		
+		alert("hello!!!");
+		document.write("hello js");
+		var x=5;
+		alert(x);
+		document.write( "is your value");
+		
+		
+		</script>
+      
+    </body>	
+</html>    
+
+ 
