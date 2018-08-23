@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+   
+ <html>
+
+ <head>
+ <title>my first page</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ </head>
+ <!--header -->
+ <div class="header">
+ <body>
+ <h1>PRATEEK SHUKLA</h1>
+ <p>THE backend-end-coader</p>
+ 
+ <ul class="top-menu">
+<a href=""> <li>Home</li></a>
+ <a href=""> <li>About</li></a>
+  <a href=""> <li>work</li></a>
+  <a href="">  <li>contact</li><a>
+	</ul>
+ <hr>
+ 
+ </div> <!--header end-->
+ 
+  <!--post-->
+ <div class="post">
+ 
+ <h2>HTML5 and CSS LAERNING</h2>
+ <p> To suceed in an environment of growth and excellence and earn a job which provides me job satisfaction and self devlopment and help me achieve goal<br>
+        personal as well as organization goals. </p>
+<p>Date:22/08/2018</p><hr>
+ </div> <!--post end -->
+   <!--post-->
+ <div class="post">
+ 
+ <h2>HTML5 and CSS LAERNING</h2>
+ <p> To suceed in an environment of growth and excellence and earn a job which provides me job satisfaction and self devlopment and help me achieve goal<br>
+        personal as well as organization goals. </p>
+<p>Date:22/08/2018</p><hr>
+ </div> <!--post end -->
+   <!--post-->
+ <div class="post">
+ 
+ <h2>HTML5 and CSS LAERNING</h2>
+ <p> To suceed in an environment of growth and excellence and earn a job which provides me job satisfaction and self devlopment and help me achieve goal<br>
+        personal as well as organization goals. </p>
+<p>Date:22/08/2018</p><hr>
+ </div> <!--post end -->  <!--post-->
+ <div class="post">
+ 
+ <h2>HTML5 and CSS LAERNING</h2>
+ <p> To suceed in an environment of growth and excellence and earn a job which provides me job satisfaction and self devlopment and help me achieve goal<br>
+        personal as well as organization goals. </p>
+<p>Date:22/08/2018</p><hr>
+ </div> <!--post end -->
+ 
+ <p>prateek@gmail.com&copy 2018 All right reserved<p>
+ </body>
+
+ 
+ 
+ 
+
+</html>
