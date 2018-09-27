@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+char str[1000]="apvioe2ygv477hheed85hd";
+char ch;
+int c=0,i;
+printf("eneter a charcter");
+scanf("%c",&ch);
+for(i=0; str[i]!='\0';i++)
+{
+if(str[i]==ch)
+c++;
+
+}
+printf("%d",c);
+}
+
