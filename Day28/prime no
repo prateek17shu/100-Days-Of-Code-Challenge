@@ -1,0 +1,33 @@
+#include<stdio.h>
+int fun(int x);
+void main()
+{
+int i,j,x;
+printf("enter a no");
+scanf("%d",&x);
+
+for(i=1;i<=x;i++)
+{
+j=fun(i);
+if(j==1)
+printf("%d",i);
+printf("\n");
+}
+}
+
+
+
+int fun(int x)
+{
+int i;
+if(x==1)
+return 1;
+else{
+for(i=2;i<=x/2;i++)
+if(x%i==0)
+return 0;
+}
+return 1;
+
+}
+
