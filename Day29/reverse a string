@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char str[50]="alkuhs keetarp";
+int f;
+int i;
+f=strlen(str);
+printf("%d",f);
+
+for(i=f-1;f>=0;i--)
+{
+printf("%c",str[i]);
+}
+
+
+}
+
